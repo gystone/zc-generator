@@ -1,0 +1,13 @@
+<?php
+
+namespace $NAMESPACE$;
+
+use Illuminate\Database\Eloquent\Model;
+use App\Traits\Filter;
+
+class $CLASS$ extends Model
+{
+    use Filter;
+
+    protected $fillable = [];
+}

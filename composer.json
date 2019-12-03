@@ -1,0 +1,25 @@
+{
+  "name": "zen\/generator",
+  "description": "Generator laravel development template",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "zhaozhen",
+      "email": "270281156@qq.com"
+    }
+  ],
+  "require": {
+  },
+  "autoload": {
+    "psr-4": {
+      "Zen\\Generator\\": "src"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Zen\\Generator\\GeneratorServiceProvider"
+      ]
+    }
+  }
+}

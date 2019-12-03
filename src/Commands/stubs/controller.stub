@@ -1,0 +1,74 @@
+<?php
+/**
+ * //$MODULE$,剪切到路由中
+ * Route::group(['namespace'=>'$CLASS_NAMESPACE$'],function(){
+ *  Route::get('/$MODULE$', '$CLASS$@index');//列表
+ *  Route::get('/$MODULE$/{$MODULE$}', '$CLASS$@show');//详情
+ *  Route::post('/$MODULE$', '$CLASS$@store');//添加
+ *  Route::patch('/$MODULE$/{$MODULE$}', '$CLASS$@update');//修改
+ *  Route::delete('/$MODULE$/{$MODULE$}', '$CLASS$@destroy');//删除
+ * });
+ */
+namespace $CLASS_NAMESPACE$;
+
+use Illuminate\Http\Request;
+use Illuminate\Http\Response;
+use Illuminate\Routing\Controller;
+
+class $CLASS$ extends Controller
+{
+    /**
+     * Display a listing of the resource.
+     * @return Response
+     */
+    public function index()
+    {
+        $list = SystemLog::search()->sort()->getList();
+                if (\request()->has('page')) {
+                    return $this->response->paginator($list, new $this->transformer);
+                } else {
+                    return $this->response->collection($list, new $this->transformer);
+                }
+    }
+
+    /**
+     * Store a newly created resource in storage.
+     * @param Request $request
+     * @return Response
+     */
+    public function store(Request $request)
+    {
+        //
+    }
+
+    /**
+     * Show the specified resource.
+     * @param int $id
+     * @return Response
+     */
+    public function show($id)
+    {
+        //
+    }
+
+    /**
+     * Update the specified resource in storage.
+     * @param Request $request
+     * @param int $id
+     * @return Response
+     */
+    public function update(Request $request, $id)
+    {
+        //
+    }
+
+    /**
+     * Remove the specified resource from storage.
+     * @param int $id
+     * @return Response
+     */
+    public function destroy($id)
+    {
+        //
+    }
+}
