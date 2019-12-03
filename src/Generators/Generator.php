@@ -1,6 +1,6 @@
 <?php
 
-namespace Zen\Generator\Generators;
+namespace Tjzen\Generator\Generators;
 
 abstract class Generator
 {

@@ -1,13 +1,13 @@
 <?php
 
-namespace Zen\Generator\Commands;
+namespace Tjzen\Generator\Commands;
 
 use Illuminate\Console\Command;
 use Illuminate\Filesystem\Filesystem;
 use Illuminate\Support\Str;
 use Symfony\Component\Console\Input\InputArgument;
 use Symfony\Component\Console\Input\InputOption;
-use Zen\Generator\Support\Stub;
+use Tjzen\Generator\Support\Stub;
 
 class ControllerCommand extends GeneratorCommand
 {

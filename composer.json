@@ -1,5 +1,5 @@
 {
-  "name": "zen\/generator",
+  "name": "tjzen\/generator",
   "description": "Generator laravel development template",
   "license": "MIT",
   "authors": [
@@ -12,13 +12,13 @@
   },
   "autoload": {
     "psr-4": {
-      "Zen\\Generator\\": "src"
+      "Tjzen\\Generator\\": "src"
     }
   },
   "extra": {
     "laravel": {
       "providers": [
-        "Zen\\Generator\\GeneratorServiceProvider"
+        "Tjzen\\Generator\\GeneratorServiceProvider"
       ]
     }
   }

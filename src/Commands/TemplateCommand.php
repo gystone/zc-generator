@@ -1,6 +1,6 @@
 <?php
 
-namespace Zen\Generator\Commands;
+namespace Tjzen\Generator\Commands;
 
 use Illuminate\Console\Command;
 use Illuminate\Support\Str;

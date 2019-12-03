@@ -1,11 +1,11 @@
 <?php
 
-namespace Zen\Generator\Commands;
+namespace Tjzen\Generator\Commands;
 
 use Illuminate\Console\Command;
 use Illuminate\Filesystem\Filesystem;
 use Illuminate\Support\Str;
-use Zen\Generator\Generators\FileGenerator;
+use Tjzen\Generator\Generators\FileGenerator;
 
 abstract class GeneratorCommand extends Command
 {

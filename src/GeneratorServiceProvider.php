@@ -4,12 +4,12 @@
  * Date: 2019/11/27 上午9:31
  */
 
-namespace Zen\Generator;
+namespace Tjzen\Generator;
 
 use Illuminate\Support\ServiceProvider;
-use Zen\Generator\Commands\ControllerCommand;
-use Zen\Generator\Commands\ModelCommand;
-use Zen\Generator\Commands\TemplateCommand;
+use Tjzen\Generator\Commands\ControllerCommand;
+use Tjzen\Generator\Commands\ModelCommand;
+use Tjzen\Generator\Commands\TemplateCommand;
 
 class GeneratorServiceProvider extends ServiceProvider
 {

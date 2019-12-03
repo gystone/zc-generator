@@ -1,6 +1,6 @@
 <?php
 
-namespace Zen\Generator\Support;
+namespace Tjzen\Generator\Support;
 
 class Stub
 {

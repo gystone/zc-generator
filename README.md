@@ -6,7 +6,7 @@
 ## 安装
 
 ```shell
-$ composer require zen/generator -vvv
+$ composer require tjzen/generator -vvv
 ```
 
 ## 使用

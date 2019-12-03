@@ -1,6 +1,6 @@
 <?php
 
-namespace Zen\Generator\Generators;
+namespace Tjzen\Generator\Generators;
 
 use Illuminate\Filesystem\Filesystem;
 
